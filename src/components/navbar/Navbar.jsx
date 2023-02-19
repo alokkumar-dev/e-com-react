@@ -186,7 +186,7 @@ export default function Navbar() {
                           data-sticky-width={82}
                           data-sticky-height={40}
                           data-sticky-top={84}
-                          src="https://i.ibb.co/8r7FCM1/7cac6b9e60404132a5a99a36d6aaf474-removebg-preview.png"
+                          src="https://i.ibb.co/zHH7g7y/eocm-logo.png"
                         />
                       </Link>
                     </a>

@@ -13,8 +13,7 @@ export default function Footer() {
                   <span className="d-block font-weight-normal line-height-1 text-color-light">
                     ADDRESS
                   </span>
-                  Shilp Epitome, 203, Rajpath Rangoli Rd, near Rajpath,
-                  Ahmedabad, Gujarat 380054
+                  Shastri Nagar Ghaziabad, Uttar Pradesh
                 </li>
                 <li className="pb-1 mb-2">
                   <span className="d-block font-weight-normal line-height-1 text-color-light">
@@ -289,7 +288,7 @@ export default function Footer() {
             <div className="row align-items-center justify-content-md-between">
               <div className="col-12 col-md-auto text-center text-md-start mb-2 mb-md-0">
                 <p className="mb-0">
-                  The Webpatriot © 2023. All Rights Reserved
+                © All Rights Reserved 2023 | Designed By <a href="https://portfolio-site-ashen.vercel.app/" target="_blank" rel="noopener noreferrer">Alok Kumar</a>
                 </p>
               </div>
               <div className="col-12 col-md-auto">
