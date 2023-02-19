@@ -50,8 +50,7 @@ export default function TopHeader() {
                     </li>
                     <li className="nav-item d-none d-lg-inline-block">
                       <a
-                        href="http://192.46.209.205:3000/"
-                        target={"_blank"}
+                        href="##"
                         className="text-decoration-none text-color-default text-color-hover-primary"
                       >
                         Blog

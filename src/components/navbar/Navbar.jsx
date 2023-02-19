@@ -767,8 +767,7 @@ export default function Navbar() {
                                     isBlogCategoryActive: true,
                                   });
                                 }}
-                                href="http://192.46.209.205:3000/"
-                                target={"_blank"}
+                                href="##"
                               >
                                 Blog
                                 {showCollapsedNav && (
