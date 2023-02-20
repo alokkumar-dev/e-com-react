@@ -90,7 +90,7 @@ export default function Navbar() {
           `${process.env.REACT_APP_API_URL}/subCategory/category/${selectedCategory}`
         )
         .then((res) => {
-          console.log("selected category result ", res.data);
+          // console.log("selected category result ", res.data);
           const contvertedProductlist = categoryProductHelper(res.data);
           disptach(updateProduct(contvertedProductlist));
         })
@@ -111,7 +111,7 @@ export default function Navbar() {
         console.log("error while fetching category req", err);
       });
   }, [selectedCategory]);
-  console.log("allcategories", allcategories);
+  // console.log("allcategories", allcategories);
 
   //! subcategory filter handler function
   const getSubCategoryProducts = (subCategoryId) => {

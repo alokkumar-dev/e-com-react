@@ -85,7 +85,7 @@ export default function Home() {
   useEffect(() => {
     getallProducts(clickedCategoryId)
       .then((res) => {
-        console.log("res.data", res.data[0].Products);
+        // console.log("res.data", res.data[0].Products);
         disptach(updateProduct(res.data[0]?.Products));
       })
       .catch((error) => {
@@ -101,7 +101,7 @@ export default function Home() {
           `${process.env.REACT_APP_API_URL}/subCategory/category/${selectedMainCategory}`
         )
         .then((res) => {
-          console.log("selected category result ", res.data);
+          // console.log("selected category result ", res.data);
           const contvertedProductlist = categoryProductHelper(res.data);
           disptach(updateProduct(contvertedProductlist));
         })
@@ -114,7 +114,7 @@ export default function Home() {
     axios
       .get(`${process.env.REACT_APP_API_URL}/products?limit=6`)
       .then((res) => {
-        console.log("all category result  ", res.data);
+        // console.log("all category result  ", res.data);
 
         disptach(updateProduct(res.data));
       })
