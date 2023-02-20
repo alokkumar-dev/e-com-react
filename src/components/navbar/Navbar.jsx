@@ -170,7 +170,7 @@ export default function Navbar() {
       >
         <div className="header-body header-body-bottom-border-fixed box-shadow-none border-top-0">
           {/* main nav top content bar */}
-          <TopHeader />
+          {/* <TopHeader /> */}
           {/* //?? product  search and user profile menus */}
           <div className="header-container container">
             <div className="header-row py-2">

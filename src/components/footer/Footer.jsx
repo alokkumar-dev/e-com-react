@@ -67,26 +67,29 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            {/* <div className="col-md-6 col-lg-3 mb-5 mb-lg-0">
-              <h5 className="text-4 text-color-light mb-3">CUSTOMER SERVICE</h5>
+            <div className="col-md-6 col-lg-3 mb-5 mb-lg-0">
+              <h5 className="text-4 text-color-light mb-3">QUICK LINKS</h5>
               <ul className="list list-unstyled mb-0">
                 <li className="mb-0">
-                  <a href="#">Web development</a>
+                  <a href="##">Home</a>
                 </li>
                 <li className="mb-0">
-                  <a href="services.html">Ui Ux development</a>
+                  <a href="services.html">Top Categories</a>
                 </li>
                 <li className="mb-0">
-                  <a href="#">Mobile app development</a>
+                  <a href="##">Summer Sell</a>
                 </li>
                 <li className="mb-0">
-                  <a href="#">Orders History</a>
+                  <a href="##">Hurry Up Sell</a>
                 </li>
                 <li className="mb-0">
-                  <a href="#">About Us</a>
+                  <a href="##">Blogs</a>
+                </li>
+                <li className="mb-0">
+                  <a href="##">About Us</a>
                 </li>
               </ul>
-            </div> */}
+            </div>
             {/* <div className="col-md-6 col-lg-3 mb-5 mb-md-0">
               <h5 className="text-4 text-color-light mb-3">POPULAR TAGS</h5>
               <ul className="list list-unstyled list-inline mb-0">

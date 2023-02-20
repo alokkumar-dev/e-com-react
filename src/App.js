@@ -7,19 +7,17 @@ import ProductQuickView from "./components/modal/ProductQuickView";
 import { ToastContainer } from "react-toastify";
 import ScrollToTop from "./commonHelpers/scrollToTop";
 
-
 function App() {
   return (
-
     <>
-    <ScrollToTop/>
-     {/* //!!main layout for all components */}
+      <ScrollToTop />
+      {/* //!!main layout for all components */}
       <div className="body">
         <Navbar />
         <Allroutes />
         <Footer />
       </div>
-      <ToastContainer/>
+      <ToastContainer />
     </>
   );
 }
